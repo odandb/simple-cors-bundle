@@ -1,0 +1,19 @@
+{
+    "name": "odandb/simple-cors-bundle",
+    "description": "Simple CORS bundle for Symfony",
+    "keywords": ["cors", "crossdomain", "api"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "OD&B",
+            "homepage": "https://odandb.com"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "^4.3 || ^5.0"
+    },
+    "autoload": {
+        "psr-4": { "Odandb\\SimpleCorsBundle\\": "" }
+    }
+}

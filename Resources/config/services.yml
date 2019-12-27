@@ -1,0 +1,5 @@
+services:
+  odandb_cors:
+    class: Odandb\SimpleCorsBundle\EventListener\CorsListener
+    tags:
+      - { name: kernel.event_subscriber }
